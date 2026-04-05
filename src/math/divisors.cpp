@@ -12,7 +12,6 @@ vector<ll> get_divisors(ll k){
 }
 vector<ll> simple_sieve(ll max_n){
   vector<ll> divisorsCount(max_n, 1);
-  divisorsCount[1] = 1;
   for(ll i = 2; i < max_n; i++){
     for(ll k = 1; k*i < max_n; k++) divisorsCount[i*k]++;
   }
