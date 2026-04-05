@@ -1,0 +1,26 @@
+# 1. C++ Compiled Object Files
+*.o
+
+# 2. Executables (from your Makefile)
+run_tests
+*.out
+*.exe
+
+# 3. Neovim Temporary Files
+*.swp
+*.swo
+*~
+Session.vim
+
+# 4. Python Cache (for your upcoming PDF script)
+__pycache__/
+*.pyc
+
+# 5. LaTeX / PDF Generation Junk
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.pdf
