@@ -15,3 +15,8 @@ TEST(MathTests, DivisorsOfPrime){
   std::sort(result.begin(), result.end());
   EXPECT_EQ(result, expected);
 }
+
+TEST(MathTests, DivisorsOfOne){
+  std::vector<long long> expected = {1};
+  EXPECT_EQ(expected, get_divisors(1));
+}
